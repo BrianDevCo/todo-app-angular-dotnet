@@ -1,0 +1,48 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+logs/
+.vs/
+.vscode/
+
+# Node
+node_modules/
+dist/
+.angular/
+
+# Environment
+*.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Test Coverage
+coverage/
+TestResults/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/

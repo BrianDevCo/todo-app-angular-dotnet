@@ -1,0 +1,73 @@
+Instrucciones
+1. Crear un repositorio nuevo.
+2. Usar Angular (versión 17 o superior) para desarrollar la solución y .NET 9 para el
+backend.
+3. Adjuntar un archivo README que explique:
+o Decisiones técnicas tomadas.
+o Cómo ejecutar el proyecto.
+o Cómo ejecutar las pruebas.
+4. Subir la solución a un repositorio público o privado (proporcionar acceso al
+evaluador).
+
+Descripción del Proyecto
+Crear una aplicación de lista de tareas (&quot;To-Do List&quot;) con las siguientes características:
+Requisitos Funcionales
+
+Prueba técnica Angular Senior
+
+Fecha:2018-12-05
+Version : 1.0
+
+1. Inicio de Sesión:
+- Implementar una pantalla de login con autenticación utilizando una API real
+desarrollada en .NET 9.
+- Proporcionar un endpoint para validar el email y la contraseña.
+2. Gestión de Tareas:
+o Ver una lista de tareas.
+o Agregar, editar y eliminar tareas.
+o Marcar tareas como completadas o pendientes.
+o Filtrar tareas por estado (todas, completadas, pendientes).
+3. Notificaciones:
+o Mostrar notificaciones al usuario cuando se realice una acción (por
+ejemplo, &quot;Tarea creada con éxito&quot;).
+
+4. Dashboard:
+o Mostrar métricas básicas como:
+ Número total de tareas.
+ Número de tareas completadas.
+ Número de tareas pendientes.
+
+Requisitos Técnicos
+Frontend (Angular):
+- Utilizar Angular CLI para iniciar el proyecto.
+- Seguir principios de Modularización (dividir funcionalidad en módulos).
+- Usar NgRx o servicios observables para el manejo del estado global de la
+aplicación.
+- Aplicar estilos usando Angular Material o un framework CSS (Bootstrap,
+Tailwind, etc.).
+- Diseño responsive.
+- Escribir pruebas unitarias (usando Karma y Jasmine) para al menos un
+componente y un servicio.
+- Opcional: Escribir una prueba end-to-end usando Protractor o Cypress.
+- Utilizar Lazy Loading para módulos secundarios.
+- Implementar técnicas de optimización de rendimiento, como trackBy en listas.
+Backend (.NET 9):
+- Desarrollar una API RESTful con .NET 9.
+- Implementar autenticación basada en JWT.
+- Usar Entity Framework Core para la interacción con la base de datos (puede ser
+una base de datos en memoria o SQL Server).
+- Implementar validación de datos en los endpoints.
+- Escribir pruebas unitarias para al menos un controlador y un servicio.
+- Opcional: Implementar logging y manejo de errores centralizado.
+Mejoras opcionales:
+- Manejo de errores en el cliente (mostrar mensajes claros cuando ocurran errores
+en la API).
+- Uso de interceptores para manejar tokens o logs.
+- Implementar Swagger para documentar la API.
+Criterios de Evaluación
+1. Correctitud Funcional (40%): La aplicación cumple con los requisitos
+solicitados.
+2. Calidad del Código (30%): Código limpio, modular y bien estructurado.
+Uso correcto de Angular y buenas prácticas.
+3. Pruebas Automatizadas (20%): Presencia y calidad de las pruebas.
+4. Documentación (10%): README claro y completo.

@@ -1,0 +1,19 @@
+<div class="mb-6">
+  <mat-button-toggle-group
+    [value]="(currentFilter$ | async) || 'all'"
+    (change)="onFilterChange($event.value)"
+    class="w-full flex">
+    <mat-button-toggle value="all" class="flex-1">
+      <mat-icon>list</mat-icon>
+      <span class="ml-2">Todas</span>
+    </mat-button-toggle>
+    <mat-button-toggle value="pending" class="flex-1">
+      <mat-icon>schedule</mat-icon>
+      <span class="ml-2">Pendientes</span>
+    </mat-button-toggle>
+    <mat-button-toggle value="completed" class="flex-1">
+      <mat-icon>check_circle</mat-icon>
+      <span class="ml-2">Completadas</span>
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+</div>
