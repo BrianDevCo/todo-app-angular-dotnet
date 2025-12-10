@@ -283,12 +283,13 @@ Este proyecto es de código abierto para fines educativos.
 
 ## Autor
 
-**Tu Nombre**
-Email: tu@email.com
-GitHub: [tu-usuario](https://github.com/tu-usuario)
+**Brian López Garzón**
+📧 Email: brianl280499@gmail.com
+📱 Teléfono: 3128599206
+💻 GitHub: [BrianDevCo](https://github.com/BrianDevCo)
 
 ---
 
-**Desarrollado como parte de una prueba técnica para demostrar competencias en Angular 18, .NET 9, y arquitectura de software empresarial.**
+**Prueba técnica desarrollada para demostrar competencias avanzadas en Angular 18, .NET 9, y arquitectura de software empresarial.**
 
-🚀 **Tecnologías**: Angular | .NET | NgRx | Entity Framework | JWT | Docker | Swagger
+🚀 **Stack**: Angular 18 | .NET 9 | NgRx | Entity Framework Core | JWT | Docker | Swagger | Clean Architecture
